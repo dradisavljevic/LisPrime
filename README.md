@@ -13,4 +13,6 @@ coprimes-list.lisp -> For a given number, function returns a list of all of its 
 
 modular-multiplicative-inverse.lisp -> For given e and totient parameters returns the their modular multiplicative inverse. Used in the RSA implementation.
 
+string-to-bytes.lisp -> Given a string, returns list of charater codes for each of the strings characters
+
 prime-numbers.lisp -> Lisp file that holds collective implementation of all the functions mentioned above.
