@@ -15,4 +15,10 @@ modular-multiplicative-inverse.lisp -> For given e and totient parameters return
 
 string-to-bytes.lisp -> Given a string, returns list of charater codes for each of the strings characters
 
+fermat-primality.lisp -> Implemenation of the Fermat primality test. Function returns a textual feedback if the given number is a possible prime
+
+random-coprime.lisp -> Given a number, returns a random number from a list of its coprimes
+
+random-prime.lisp -> Forms a list of all the prime numbers in between the two given numbers and returns a randomly chosen number
+
 prime-numbers.lisp -> Lisp file that holds collective implementation of all the functions mentioned above.
