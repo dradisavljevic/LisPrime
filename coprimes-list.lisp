@@ -1,4 +1,6 @@
-; Returns a list of all coprimes for a given number
+;;;; Function that returns a list of coprime numbers for a certain number
+;;;; Receives one parameter which is number for which the coprimes will be computed
+;;;; Returns a list coprimes for the passed numer
 
 (defun coprimes-list (num)
 (defvar listnum)

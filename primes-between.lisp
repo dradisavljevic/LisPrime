@@ -1,4 +1,6 @@
-;Returns a list of prime numbers between two given numbers
+;;;; Function that returns all prime numbers in between certain boundaries
+;;;; Two parameters passed to the function are numbers in between which prime numbers will be located
+;;;; Returns a list of all prime numbers between two numbers
 
 (defun primes-between (firstnum secondnum)
 (defvar dummynum)

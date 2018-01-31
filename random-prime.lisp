@@ -1,4 +1,6 @@
-;Forms a list of all the prime numbers in between the two given numbers and returns a randomly chosen number
+;;;; Forms a list of prime numbers for given two numbers
+;;;; Two numbers passed as parameters are boundaries in between which the prime numbers must be located
+;;;; Returns one randomly selected prime number
 
 (defun random-prime (upperbound lowerbound)
 (defvar primelist)

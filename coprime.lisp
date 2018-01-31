@@ -1,4 +1,7 @@
-; Checks whether or not second argument is coprime number of the first one
+;;;; Checks if two passed numbers are coprimes
+;;;; Receives two parameters, first one being the number against which test will be conducted
+;;;; Second parameter is a candidate for coprime number
+;;;; Returns T if second number is indeed coprime, returns NIL otherwise
 
 (defun coprime (firstnum secondnum)
 (defvar numcheck)

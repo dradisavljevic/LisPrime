@@ -1,4 +1,6 @@
-;Given a string, returns a list of character codes for each of the strings characters
+;;;; Converts a string to an array of byte values for each character in string
+;;;; Receives one parameter which is string
+;;;; Returns a list of byte values
 
 (defun string-to-bytes (string)
 (defvar charlist)

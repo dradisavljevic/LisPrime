@@ -1,4 +1,6 @@
-; Checks whether or not number is prime number
+;;;; Checks if number is prime or not.
+;;;; Receives one parameter which is number for which test is conducted
+;;;; Returns T if number is prime, otherwise returns NIL
 
 (defun isprime (primenum) 
 (defvar numcheck) 

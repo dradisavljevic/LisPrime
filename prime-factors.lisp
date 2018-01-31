@@ -1,4 +1,6 @@
-; Function that for a given number executres prime factoring on it
+;;;; Divides the passed number to it's prime factors
+;;;; Parameter passed to the function is number to be divided
+;;;; Returns a list of the numbers prime factors
 
 (defun prime-factors (num)
 (defvar listnum)

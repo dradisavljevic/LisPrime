@@ -1,4 +1,6 @@
-;Implemenation of the Fermat primality test. Function returns a textual feedback if the given number is a possible prime.
+;;;; Implementation of the fermat primality test
+;;;; For a number that is passed to the function returns whether or not it is a possible prime
+;;;; Prints out the test result as string
 
 (defun fermat-primality (num)
 (defvar corpimenum)

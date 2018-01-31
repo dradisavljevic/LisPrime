@@ -1,5 +1,5 @@
-; Calculates modular multiplicative inverse for a number and totient
-; used for implementation of the RSA algorithm
+;;;; Function that computes the modular multiplicative inverse for two passed numbers
+;;;; Number return should be such that when multiplied by e and then divided by totient, the result equals 1
 
 (defun modular-multiplicative-inverse (e totient)
 (defvar d)
