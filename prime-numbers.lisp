@@ -4,8 +4,8 @@
 ;;; Checks if number is prime or not.
 ;;; Receives one parameter which is number for which test is conducted
 ;;; Returns T if number is prime, otherwise returns NIL
-(defun isprime (primenum) 
-(defvar numcheck) 
+(defun isprime (primenum)
+(defvar numcheck)
 (setf numcheck 1)
 (loop for a from 1 to (floor (sqrt primenum)) do (if (not (= a 1) ) (if (eq (rem primenum a) 0) (setf numcheck 0) ) ) )
 (if (eq numcheck 1) (return-from isprime t) (return-from isprime nil) ) )
@@ -63,7 +63,7 @@
 (setf listnum '(nil))
 (loop for a from 2 to num do (if (eq (gcd num a) 1) (setf listnum (cons a listnum))))
  (setf listnum (remove nil listnum))
- (return-from coprimes-list (reverse listnum)) 
+ (return-from coprimes-list (reverse listnum))
 )
 
 
@@ -87,7 +87,7 @@
 (defun string-to-bytes (string)
 (defvar charlist)
 (setf charlist '(nil))
-(loop for c across string do 
+(loop for c across string do
 	(setf charlist (cons (char-code c) charlist))
 )
  (setf charlist (remove nil charlist))
@@ -120,7 +120,7 @@
 ;;; For a number that is passed to the function returns whether or not it is a possible prime
 ;;; Prints out the test result as string
 (defun fermat-primality (num)
-(defvar corpimenum)
+(defvar coprimenum)
 (defvar calc)
 (defvar primeindicator)
 (setf coprimenum (random-coprime num))

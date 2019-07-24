@@ -3,11 +3,11 @@
 ;;;; Prints out the test result as string
 
 (defun fermat-primality (num)
-(defvar corpimenum)
+(defvar coprimenum)
 (defvar calc)
 (defvar primeindicator)
 (setf coprimenum (random-coprime num))
-(setf calc ((expt coprimenum (- num 1))))
+(setf calc (expt coprimenum (- num 1)))
 (setf primeindicator (rem calc num))
 (if (eq primeindicator 1) (return-from fermat-primality "Given number is a possible prime number") (return-from fermat-primality "Given number is not a prime number"))
 )
